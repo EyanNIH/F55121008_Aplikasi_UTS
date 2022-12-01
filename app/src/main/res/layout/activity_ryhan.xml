@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ryhan">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top"
+        android:padding="40dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="List Wahid Radikal Akhlak"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@+id/img_photo"
+        android:src="@drawable/ryhan"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="130dp"
+        android:scaleType="fitXY" />
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:text="Muhammad Ryhan"
+        android:layout_marginTop="150dp"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/txt_stambuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:text="F55121008"
+        android:layout_marginTop="200dp"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/txt_description"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="350dp"
+        android:textSize="16sp"
+        android:text="Mahasiswa Universitas Tadulako, Fakultas Teknik,
+         Jurusan Tekonologi Informasi,Program Studi S1-Teknik Informatika. Berasal dari kota Toli Toli tepatnya desa sibaluton dengan suku Bugis/Mandar."
+        android:textAlignment="center"/>
+
+
+
+
+</RelativeLayout>

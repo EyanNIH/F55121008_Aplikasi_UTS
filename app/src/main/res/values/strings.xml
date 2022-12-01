@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">NAMA TEMAN SERUMAH</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="name_home"> NAMA TEMAN</string>/>
+    <string name="lorem"> Lorem ipsum dolor sit amet </string>
+    <string name="ryhan">Ryhan</string>
+
+    <string-array name="data_nama">
+        <item>Muhammad Ryhan</item>
+        <item>iwank Fergyawan</item>
+        <item>Moh Al Riski Lagala</item>
+        <item>Rian Mubarok</item>
+    </string-array>
+
+    <string-array name="data_deskripsi">
+        <item>Seorang mahasiswa Jurusan Teknologi Informasi Program Studi S1 Teknik Informatika.
+            Beliau bergama Islam yang berasal dari Toli toli</item>
+        <item>Seorang mahasiswa Fakultas Hukum Program Studi S1 Hukum.
+            Beliau bergama Islam yang berasal dari Ampibabo</item>
+        <item>Seorang mahasiswa Fakultas Pertanian Program Studi S1 Agribisnis.
+            Beliau bergama Islam yang berasal dari Ampana</item>
+        <item>Seorang mahasiswa Fakultas FKIP Program Studi S1 PPKN.
+            Beliau bergama Islam yang berasal dari Tondo</item>
+    </string-array>
+
+    <array name="data_photo">
+        <item>@drawable/ryhan</item>
+        <item>@drawable/iwank</item>
+        <item>@drawable/riski</item>
+        <item>@drawable/rian</item>
+    </array>
+</resources>
